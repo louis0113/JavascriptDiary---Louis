@@ -1,13 +1,16 @@
 
-
 function floatOrInteger (verify){
 
-  if (isFloat(verify)){
-  
-  console.log(`${verify} is a Float Number`)
+    let integer =  Number.isInteger(verify)
+
+  if (integer){
+
+    console.log(`${verify} is a Integer Number \n`)
   
 } else {
-  console.log(`${verify} is a Integer Number`)
+
+    console.log(`${verify} is a Float Number \n`)
+  
 }
   
 }
@@ -21,13 +24,13 @@ console.log(`${x} is a ${typeof(x)}`) //A number includes Integer Numbers and Fl
 floatOrInteger(x)
 
 let hello = "Hello World!" //String
-console.log(`${hello} is a ${typeof(hello)}`)
+console.log(`${hello} is a ${typeof(hello)} \n`)
 
 let powerOn = true // Bool 
 console.log(`${powerOn} is a ${typeof(powerOn)}`)
 
 let powerOff = !powerOn 
-console.log(`${powerOff} is a ${typeof(powerOff)}`)
+console.log(`${powerOff} is a ${typeof(powerOff) } \n`)
 
 let y = 10.5 //Float
 
