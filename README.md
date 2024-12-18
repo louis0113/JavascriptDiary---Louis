@@ -6,8 +6,11 @@ Obviously, a variable can change your value
 ### Variable changes value 
 
 `let x = 3`
+
 `console.log(x) \\ 3`
+
 `x = 2`
+
 `console.log(x) \\ 2`
 
 
