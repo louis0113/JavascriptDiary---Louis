@@ -1,13 +1,20 @@
-let x = 10 //Integer
-console.log(x)
+let x = 10 // Integer
+console.log(`${x}`)
 x = 20
-console.log(x)
+console.log(`${x} is a ${typeof(x)}`) //A number includes Integer Numbers and Float Numbers
 
 let hello = "Hello World!" //String
 
-let powerOn = true // Bool = true
+console.log(`${hello} is a ${typeof(hello)}`)
 
-let powerOff = !powerOn //Bool = false
+let powerOn = true // Bool 
+
+console.log(`${powerOn} is a ${typeof(powerOn)}`)
+
+let powerOff = !powerOn 
+
+console.log(`${powerOff} is a ${typeof(powerOff)}`)
 
 let y = 10.5 //Float
 
+console.log(`${y} is a ${typeof(y)}`)
