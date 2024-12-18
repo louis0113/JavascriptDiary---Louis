@@ -3,15 +3,7 @@ function floatOrInteger (verify){
 
     let integer =  Number.isInteger(verify)
 
-  if (integer){
-
-    console.log(`${verify} is a Integer Number \n`)
-  
-} else {
-
-    console.log(`${verify} is a Float Number \n`)
-  
-}
+integer ? console.log(`${verify} is a Integer Number \n`) : console.log(`${verify} is a Float Number `)
   
 }
 
