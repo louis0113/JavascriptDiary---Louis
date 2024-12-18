@@ -7,8 +7,11 @@ Obviously, a variable can change your value
 
 `
 let x = 2   
-console.log(x) \\ 2 
-x = 3 
+
+console.log(x) \\ 2
+
+x = 3
+ 
 console.log(x) \\ 3
 `
 
